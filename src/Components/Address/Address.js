@@ -1,17 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "./address.css";
-import call from "../../Assets/contact.svg";
-
+import { Col, Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiFillInstagram,
-  AiOutlineWhatsApp,
-  
-  AiOutlineMail,
-  
+  AiFillInstagram, AiOutlineMail, AiOutlineWhatsApp
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import call from "../../Assets/contact.svg";
+import "./address.css";
+
 function Address() {
   return (
     <Container>
@@ -31,13 +27,13 @@ function Address() {
 
            <h4 >Phone Number</h4> 
               
-              <p>  <AiOutlineWhatsApp/> +91 7306993085</p>
+              <p>  <AiOutlineWhatsApp/> +880 01713596609</p>
               </Col>
               <Col md={6} className="contact-address">
               <h4 >Email Address</h4> 
               <p>
                 
-                <AiOutlineMail/> sijeeshmiziha1@gmail.com
+                <AiOutlineMail/> naimur202163@gmail.com
               </p>
               </Col>
 
@@ -57,7 +53,7 @@ function Address() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/sijeeshmiziha"
+                   href="https://github.com/naimur202163"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -68,7 +64,7 @@ function Address() {
 
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/sijeeshmiziha/"
+                      href="https://www.linkedin.com/in/naimur-rahman-76aaa3216/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -79,7 +75,7 @@ function Address() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://wa.me/7306993085/"
+                    href="https://wa.me/01713596609/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -90,7 +86,7 @@ function Address() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://www.instagram.com/sijeeshmiziha/"
+                    href="#/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
