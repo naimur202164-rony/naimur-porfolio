@@ -1,22 +1,16 @@
 import React, { useState } from "react";
-import "./header.css"
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-
-import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import {
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-  AiOutlineMessage
+  AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMessage, AiOutlineUser
 } from "react-icons/ai";
+import { CgFileDocument } from "react-icons/cg";
+import { Link } from "react-router-dom";
+import "./header.css";
 
-import { CgFileDocument, } from "react-icons/cg";
+
+
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
@@ -104,16 +98,7 @@ function Header() {
             </Nav.Item>
 
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/sijeeshmiziha/portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
