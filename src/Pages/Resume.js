@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../Assets/resume.pdf";
+import pdf from "../Assets/Naimur.pdf";
 import Particle from "../Components/Particles/Particle";
 
 
