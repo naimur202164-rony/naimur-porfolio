@@ -1,12 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Particle from "../Components/Particles/Particle";
 import ProjectCards from "../Components/ProjectCards/ProjectCards";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
