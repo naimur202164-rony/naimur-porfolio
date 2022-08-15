@@ -59,6 +59,7 @@ function Projects() {
               link="https://lucid-franklin-825867.netlify.app/home"
             />
           </Col>
+    
         </Row>
       </Container>
     </Container>
