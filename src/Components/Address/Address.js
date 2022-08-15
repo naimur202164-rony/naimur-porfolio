@@ -27,7 +27,7 @@ function Address() {
 
            <h4 >Phone Number</h4> 
               
-              <p>  <AiOutlineWhatsApp/> +880 01713596609</p>
+              <p>  <AiOutlineWhatsApp/> +880  01778470061</p>
               </Col>
               <Col md={6} className="contact-address">
               <h4 >Email Address</h4> 
@@ -75,7 +75,7 @@ function Address() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://wa.me/01713596609/"
+                    href="https://wa.me/01778470061/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
