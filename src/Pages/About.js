@@ -1,16 +1,14 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Components/Particles/Particle";
+import { Col, Container, Row } from "react-bootstrap";
 import Techstack from "../Components/TechStack/TechStack";
 
-import Toolstack from "../Components/ToolStack/ToolStack";
 import laptopImg from "../Assets/about.png";
 import AboutCard from "../Components/AboutCard/AboutCard";
+import Toolstack from "../Components/ToolStack/ToolStack";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col

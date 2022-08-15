@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import pdf from "../Assets/Naimur.pdf";
-import Particle from "../Components/Particles/Particle";
 
 
 
@@ -11,7 +10,6 @@ import Particle from "../Components/Particles/Particle";
 function Resume() {
     return (
         <Container fluid className="resume-section">
-        <Particle />
         
       {/* <img src={resume} alt="error" style={{width:"70%" , marginLeft:"15%", marginBottom:"5%" }}/>
       <img src={project} alt="error" style={{width:"70%" , marginLeft:"15%" ,marginBottom:"5%" }}/> */}
