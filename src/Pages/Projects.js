@@ -45,18 +45,15 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCards
-              imgPath="https://i.ibb.co/QkK4Wvs/Hospital.png"
-              title="HopeMedical—"
+              imgPath="https://i.ibb.co/ws1B97b/Screenshot-2022-08-16-101103.png"
+              title="Car-Dealer"
               description="Technologies :
-              React Js, React Bootstrap, Firebase Authentication.
-              Project Overview :
-              ● It’s a website about Medical Services with modern React
-              technology.
-              ● Users can visit the Services & doctor page when they are signed
-              in.
-              ● Users can book their appointment, they will receive a popup
-              message once they made their appointment."
-              link="https://lucid-franklin-825867.netlify.app/home"
+              ● A fully functional, full-stack web app based on MERN.
+              ● This is an e-commerce niche project, users can order any watch if they are logged
+              in and can also view their orders on the Dashboard page.
+              ● The admin panel is available to all. An admin can manage all
+              orders and can add a service."
+              link="https://assignment-twelve-tb.web.app/"
             />
           </Col>
     
