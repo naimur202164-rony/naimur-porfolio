@@ -56,6 +56,23 @@ function Projects() {
               link="https://assignment-twelve-tb.web.app/"
             />
           </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/ZVBfWRD/Screenshot-2022-08-24-194428.png"
+              title="Nike"
+              description="The Project is created with Raw HTML AND CSS,Javascript"
+              link="https://naimur202163.github.io/Nike/"
+            />
+          </Col>
+          {/* Games */}
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/tssGyXM/Screenshot-2022-08-24-194351.png"
+              title="Javscript Modal App"
+              description="The Project is created with Raw HTML AND CSS,Javascript"
+              link="https://naimur202163.github.io/Modal-Window-Javascript/"
+            />
+          </Col>
     
         </Row>
       </Container>
