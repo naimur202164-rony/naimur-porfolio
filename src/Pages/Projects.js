@@ -73,6 +73,14 @@ function Projects() {
               link="https://naimur202163.github.io/Modal-Window-Javascript/"
             />
           </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/58nQfgp/Screenshot-2022-08-25-093509.png"
+              title="Honda Cbr"
+              description="The Project is created with Raw HTML AND CSS,Javascript"
+              link="https://naimur202163.github.io/Honda-Cbr-responsive/"
+            />
+          </Col>
     
         </Row>
       </Container>
