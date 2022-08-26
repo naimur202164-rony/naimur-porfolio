@@ -81,6 +81,15 @@ function Projects() {
               link="https://naimur202163.github.io/Honda-Cbr-responsive/"
             />
           </Col>
+          {/* Javascript --Clock  */}
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/vvVv48b/Screenshot-2022-08-26-122318.png"
+              title="Clock"
+              description="The Project is created with Raw HTML AND CSS,Javascript"
+              link="https://naimur202163.github.io/Clock-With-Javascript/"
+            />
+          </Col>
     
         </Row>
       </Container>
