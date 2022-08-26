@@ -90,6 +90,14 @@ function Projects() {
               link="https://naimur202163.github.io/Clock-With-Javascript/"
             />
           </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/cXvT6xf/Screenshot-2022-08-26-193919.png"
+              title="Image Slider"
+              description="The Project is created with Raw HTML AND CSS,Javascript"
+              link="https://naimur202163.github.io/explanding-card/"
+            />
+          </Col>
     
         </Row>
       </Container>
