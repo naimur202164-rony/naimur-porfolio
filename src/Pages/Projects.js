@@ -98,6 +98,14 @@ function Projects() {
               link="https://naimur202163.github.io/explanding-card/"
             />
           </Col>
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/vYJQ99t/Screenshot-2022-08-27-230645.png"
+              title="Wakanda"
+              description="The Project is created with Raw HTML and CSS"
+              link="https://naimur202163.github.io/Wakana-Landing-Page/"
+            />
+          </Col>
     
         </Row>
       </Container>
