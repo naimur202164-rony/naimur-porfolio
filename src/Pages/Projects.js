@@ -13,7 +13,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={6} className="project-card">
+          <Col md={6} className="project-card">
             <ProjectCards
               imgPath="https://i.ibb.co/FDb1cfc/Time-Keeper.png"
               title="TimeKeeper —"
@@ -25,7 +25,8 @@ function Projects() {
               logged in and can also view their orders on the Dashboard page.
               ● The admin panel is available to all. An admin can manage all
               orders and can add a service.
-              "link="https://unruffled-hoover-560b6b.netlify.app/"
+              "
+              link="https://unruffled-hoover-560b6b.netlify.app/"
             />
           </Col>
           <Col md={6} className="project-card">
@@ -106,7 +107,15 @@ function Projects() {
               link="https://naimur202163.github.io/Wakana-Landing-Page/"
             />
           </Col>
-    
+          {/* Progress var */}
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/LNs8Yyf/Screenshot-2022-09-02-075508.png"
+              title="Progress"
+              description="The Project is created with Raw HTML and CSS"
+              link="https://naimur202163.github.io/Progress-step-javascript/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
