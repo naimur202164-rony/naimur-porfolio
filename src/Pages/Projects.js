@@ -116,6 +116,15 @@ function Projects() {
               link="https://naimur202163.github.io/Progress-step-javascript/"
             />
           </Col>
+          {/* Image-slider */}
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="https://i.ibb.co/k64SzJj/Screenshot-2022-09-02-121835.png"
+              title="Image-Slider"
+              description=" Project is created with Raw HTML and CSS"
+              link="https://naimur202163.github.io/Image-Slider/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
