@@ -1,13 +1,10 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import {
-  AiFillFacebook, AiFillGithub, AiFillInstagram
-} from "react-icons/ai";
+import { AiFillFacebook, AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import "./footer.css";
 
 function Footer() {
-  
   return (
     <Container fluid className="footer">
       <Row>
@@ -19,32 +16,32 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-          <li className="social-icons">
+            <li className="social-icons">
               <a
                 href="https://www.facebook.com/naimur.rahman.946954"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
-                <AiFillFacebook/>
+                <AiFillFacebook />
               </a>
             </li>
             <li className="social-icons">
               <a
                 href="https://github.com/naimur202163"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            
+
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/naimur-rahman-76aaa3216/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -52,9 +49,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="/#"
+                href="https://www.instagram.com/naimur202163"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
@@ -70,7 +67,6 @@ function Footer() {
                 <AiOutlineYoutube />
               </a>
             </li> */}
-           
           </ul>
         </Col>
       </Row>
