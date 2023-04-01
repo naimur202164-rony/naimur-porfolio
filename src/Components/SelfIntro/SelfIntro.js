@@ -1,8 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import {
-  AiFillGithub, AiFillInstagram
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
@@ -22,29 +20,19 @@ function SelfIntro() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple">JavaScript. </b>
+                <b className="purple">Content Writing. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are writing about &nbsp;
               <i>
-                <b className="purple">Web Technologies  &nbsp;</b> and also passionate
-                about all things in  &nbsp;<b className="purple">CyberSecurity</b>
+                <b className="purple">Seo Writing &nbsp;</b> and also passionate
+                about all things in &nbsp;<b className="purple">Bloging</b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-             
-              &nbsp; like
-              
-                <b className="purple"> React.js and Next.js</b>
-              
+              Whenever possible, I also apply my passion for writing in new
+              ideas
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,7 +48,7 @@ function SelfIntro() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-               href="https://www.facebook.com/naimur.rahman.946954"
+                  href="https://www.facebook.com/naimur.rahman.946954"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,7 +59,7 @@ function SelfIntro() {
 
               <li className="social-icons">
                 <a
-                   href="https://www.linkedin.com/in/naimur-rahman-76aaa3216/"
+                  href="https://www.linkedin.com/in/naimur-rahman-76aaa3216/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
