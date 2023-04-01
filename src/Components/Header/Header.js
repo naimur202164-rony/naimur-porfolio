@@ -63,7 +63,7 @@ function Header() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/projects"
@@ -74,10 +74,21 @@ function Header() {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-           
             <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/works"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                works
+              </Nav.Link>
+            </Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -85,7 +96,7 @@ function Header() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
