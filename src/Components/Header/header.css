@@ -1,7 +1,7 @@
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #ffffffd8 !important;
+  background-color: lightcyan !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -70,7 +70,7 @@
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: lightcyan !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
