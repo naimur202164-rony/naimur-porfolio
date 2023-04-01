@@ -301,7 +301,9 @@ html {
   opacity: 0.8 !important;
   border-radius: 10px !important;
 }
-
+.project-card-view {
+  color: #000000 !important;
+}
 .btn-primary {
   color: #fff !important;
   background-color: #623686 !important;
