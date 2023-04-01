@@ -24,6 +24,9 @@ function MainRoutes() {
                  <Route path="/projects">
                     <Projects/>
                  </Route>
+                 <Route path="/works">
+               
+                 </Route>
                  <Route path="/resume">
                     <Resume/>
                  </Route>
