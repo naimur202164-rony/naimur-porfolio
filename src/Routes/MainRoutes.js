@@ -8,6 +8,7 @@ import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import Contact from "../Pages/Contact";
 import Works from "../Pages/Works";
+import Blogs from "../Pages/Blogs";
 
 function MainRoutes() {
   return (
@@ -24,6 +25,9 @@ function MainRoutes() {
       </Route>
       <Route path="/projects">
         <Projects />
+      </Route>
+      <Route path="/blog">
+        <Blogs />
       </Route>
       <Route path="/works">
         <Works />

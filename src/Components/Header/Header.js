@@ -3,13 +3,13 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {
-  AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMessage, AiOutlineUser
+  AiOutlineFundProjectionScreen,
+  AiOutlineHome,
+  AiOutlineMessage,
+  AiOutlineUser,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import "./header.css";
-
-
-
 
 function Header() {
   const [expand, updateExpanded] = useState(false);
@@ -33,7 +33,6 @@ function Header() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -62,7 +61,6 @@ function Header() {
               </Nav.Link>
             </Nav.Item>
 
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -75,8 +73,16 @@ function Header() {
                 works
               </Nav.Link>
             </Nav.Item>
-        
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMessage style={{ marginBottom: "2px" }} /> Blog
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -86,9 +92,6 @@ function Header() {
                 <AiOutlineMessage style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
-
-
-           
           </Nav>
         </Navbar.Collapse>
       </Container>
