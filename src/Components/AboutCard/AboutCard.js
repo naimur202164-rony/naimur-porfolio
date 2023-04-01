@@ -12,11 +12,11 @@ function AboutCard() {
             English Horns Student from{" "}
             <span className="purple"> Cumilla, Bangladesh .</span>
             <br />
-            <br />I have completed My College Group from Jafarganj Mir Abdul
+            <br />I have completed My College  from Jafarganj Mir Abdul
             Gafur College
             <br /> <br />
             <br />
-            now i am studying ba english honours Nimsar Junab Ali College <br />{" "}
+            now i am studying ba english honours Nimsar Junab Ali University <br />{" "}
             <br />
             <br />
             <br />
