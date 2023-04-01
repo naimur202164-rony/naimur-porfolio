@@ -5,7 +5,6 @@ import Navbar from "react-bootstrap/Navbar";
 import {
   AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineMessage, AiOutlineUser
 } from "react-icons/ai";
-import { CgFileDocument } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import "./header.css";
 
@@ -63,18 +62,6 @@ function Header() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/projects"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
-              </Nav.Link>
-            </Nav.Item> */}
 
             <Nav.Item>
               <Nav.Link
@@ -88,15 +75,7 @@ function Header() {
                 works
               </Nav.Link>
             </Nav.Item>
-            {/* <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
-            </Nav.Item> */}
+        
 
             <Nav.Item>
               <Nav.Link

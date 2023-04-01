@@ -1,10 +1,8 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import Techstack from "../Components/TechStack/TechStack";
 
 import laptopImg from "../Assets/about.png";
 import AboutCard from "../Components/AboutCard/AboutCard";
-import Toolstack from "../Components/ToolStack/ToolStack";
 
 function About() {
   return (
@@ -32,16 +30,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        {/* <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
-        </h1> */}
-
-        {/* <Techstack /> */}
-
-        {/* <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1> */}
-        {/* <Toolstack /> */}
+      
       </Container>
     </Container>
   );
